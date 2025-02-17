@@ -31,10 +31,10 @@ public class ArrayLab {
      */
     public static int max(int[][] a) {
         int maxValue = Integer.MIN_VALUE;
-        for(int row = 0; row < a.length; row++) {
-            for(int col = 0; col < a[row].length; col++) {
-                if(a[row][col] > maxValue) {
-                    maxValue = a[row][col];
+        for(int col = 0; col < a.length; col++) {
+            for(int row = 0; row < a[col].length; row++) {
+                if(a[col][row] > maxValue) {
+                    maxValue = a[col][row];
                 }
             }
 
