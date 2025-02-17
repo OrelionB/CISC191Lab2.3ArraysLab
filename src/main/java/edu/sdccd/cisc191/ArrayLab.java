@@ -1,6 +1,6 @@
 package edu.sdccd.cisc191;
 
-
+import java.util.Arrays;
 
 /**
  * CISC191 2.3 Multidimensional Arrays - Junior
